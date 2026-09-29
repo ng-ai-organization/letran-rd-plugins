@@ -1,0 +1,21 @@
+{
+  "name": "letran-rd-plugins",
+  "interface": {
+    "displayName": "LeTran R&D Plugins"
+  },
+  "plugins": [
+    {
+      "name": "letran-furniture-rd-flow",
+      "pluginId": "Plugin_a550cf97bed0819183bee25dd37d563f",
+      "source": {
+        "source": "local",
+        "path": "./plugins/letran-furniture-rd-flow"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}
