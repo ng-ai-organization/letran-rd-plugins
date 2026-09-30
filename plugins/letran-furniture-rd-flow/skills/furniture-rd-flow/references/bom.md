@@ -63,3 +63,7 @@ Do not call it production-ready while critical geometry/material fields remain u
 ## Stage 05 completion gate
 
 Allow Stage 06 when product configuration, KD/fixed/stack logic, major assemblies and approximate packed form can be reasoned about. Do not require all exact cut lengths or weaving consumption to be finalized for preliminary packing work.
+
+## Stage checkpoint
+
+Before moving to Stage 06, record BOM maturity, assembly logic, locked material/part decisions, packaging-critical `AI Proposal`/`TBD`, blockers and next action using the compact checkpoint format in `project-state.md`.

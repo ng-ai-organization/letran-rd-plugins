@@ -42,4 +42,7 @@ After Output:
 - Do not advance automatically when a stage still has a critical blocker that would make the next stage misleading.
 - If only noncritical TBD items remain, allow progression and carry them forward explicitly.
 - When the user finishes review with `xong review` or equivalent, summarize the revision state and immediately surface the next-step choice; do not wait for the user to remember what comes next.
-- Preserve the same project/chat state when moving between stages.
+- Preserve the same project/chat state when moving between stages. Use `project-state.md` to carry the active concept/revision, locked decisions, critical TBD and blockers.
+- At each stage transition, emit a compact checkpoint before the next-step choices.
+- Before Stage 04, do not proceed without an identifiable Active Concept; ask one concise selection question if the source concept is ambiguous.
+- After a long gap or a generic `tiếp tục`, reconstruct the smallest reliable checkpoint rather than asking the user to repeat the brief.

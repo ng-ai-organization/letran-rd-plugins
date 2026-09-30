@@ -180,3 +180,7 @@ Stage 04 is complete enough for preliminary BOM when:
 - no unresolved issue blocks quantity takeoff at a screening level.
 
 Do not require all factory details to be confirmed before a preliminary BOM. Carry explicit TBD items forward.
+
+## Stage checkpoint
+
+Before moving to Stage 05, record the active concept/revision, Collection Standard, locked engineering decisions, critical `AI Proposal`/`TBD`, blockers and BOM readiness using the compact checkpoint format in `project-state.md`.

@@ -61,3 +61,7 @@ Use one:
 ## Calculation caution
 
 Do not imply that simple CBM division equals a guaranteed container quantity. Account for orientation, unusable space, stacking constraints and loading practicality; describe estimates as screening until a layout or real packing test confirms them.
+
+## Stage checkpoint
+
+Before moving to Stage 07, record packing mode, packed-dimension status, loading maturity, logistics assumptions/TBD, blockers and next action using the compact checkpoint format in `project-state.md`.

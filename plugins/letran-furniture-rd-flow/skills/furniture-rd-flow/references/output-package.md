@@ -78,3 +78,7 @@ After output:
 - Secondary: `Tạo revision mới`
 
 A revision stays in the same chat/project and preserves Design DNA, history and controlled IDs where appropriate.
+
+## Final project checkpoint
+
+Preserve the active concept/revision, package version, readiness of each deliverable, unresolved TBD and whether the project is completed or entering a new revision. Use the compact checkpoint format in `project-state.md`.

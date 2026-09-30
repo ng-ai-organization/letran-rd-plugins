@@ -1,14 +1,14 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "letran-furniture-rd-flow",
-  "version": "0.8.0",
+  "version": "0.9.0",
   "description": "Vietnamese furniture R&D workflow for LeTran from guided brief and concept development through review, minimum-input engineering, BOM, packaging/loading, and controlled R&D output packages.",
   "author": {"name": "LeTran Furniture"},
   "extensions": {
     "com.openai": {
       "interface": {
         "displayName": "LeTran Furniture R&D Flow",
-        "shortDescription": "R&R&D nội thất từ brief đến BOM, loading, output và handoff",
+        "shortDescription": "R&D nội thất từ brief đến BOM, loading, output và handoff",
         "longDescription": "Trợ lý R&D nội thất xuất khẩu bằng ChatGPT. User nhập tối thiểu: AI dẫn từ brief, Design DNA, concept, review/revision đến Engineering Definition, BOM, Packing/Loading và Output Package; tự gợi ý bước tiếp theo, ưu tiên lựa chọn dạng nút khi giao diện hỗ trợ và giữ dữ liệu kỹ thuật theo trạng thái kiểm soát.",
         "developerName": "LeTran Furniture",
         "category": "Productivity",
