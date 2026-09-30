@@ -14,7 +14,7 @@
     ]
   },
   "name": "letran-furniture-rd-flow",
-  "version": "0.9.0",
+  "version": "0.9.1",
   "description": "Vietnamese furniture R&D workflow for LeTran from guided brief and concept development through review, minimum-input engineering, BOM, packaging/loading, and controlled R&D output packages.",
   "author": {"name": "LeTran Furniture"},
   "keywords": [],

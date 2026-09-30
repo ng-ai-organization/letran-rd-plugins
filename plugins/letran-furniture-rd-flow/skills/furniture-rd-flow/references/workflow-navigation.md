@@ -25,8 +25,15 @@ After Engineering Definition:
 
 After BOM:
 - Primary: `Tiếp tục: Đóng gói & Loading`
-- Secondary: `Xem BOM chi tiết`
+- Secondary: `Xem BOM từng sản phẩm`
+- Optional: `Xem các mục chưa xác định`
 - Optional: `Chỉnh BOM`
+
+Inside BOM product browsing:
+- Default to one product at a time.
+- Prefer product-name choices/cards over a generic `Xem BOM chi tiết` action.
+- If the user asks `xem BOM chi tiết` in a collection, present/select the product first; never dump every SKU's full BOM.
+- After viewing one product, offer `Xem sản phẩm khác`, `Xem chi tiết [Product]`, `Chỉnh BOM [Product]`, or `Quay lại BOM collection`.
 
 After Packing & Loading:
 - Primary: `Tiếp tục: Xuất file`
@@ -41,6 +48,7 @@ After Output:
 
 - Do not advance automatically when a stage still has a critical blocker that would make the next stage misleading.
 - If only noncritical TBD items remain, allow progression and carry them forward explicitly.
+- In Vietnamese user-facing views, show internal `TBD` as `Chưa xác định` unless the technical code itself is useful.
 - When the user finishes review with `xong review` or equivalent, summarize the revision state and immediately surface the next-step choice; do not wait for the user to remember what comes next.
 - Preserve the same project/chat state when moving between stages. Use `project-state.md` to carry the active concept/revision, locked decisions, critical TBD and blockers.
 - At each stage transition, emit a compact checkpoint before the next-step choices.

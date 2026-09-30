@@ -13,6 +13,8 @@ Read [company-context.md](references/company-context.md) at the start of a proje
 
 Never require the user to remember stage names, commands or exact phrases. At the end of each stage, surface the next useful action and one or two secondary choices. Prefer native clickable choice controls when the host UI supports them; otherwise show the same options as a short numbered choice list. Always understand ordinary replies such as `ok`, `tiếp`, `tiếp tục`, `qua bước sau`, `được`, `làm tiếp`, or equivalent from context. Maintain a compact project state across the chat; do not make the user restate confirmed decisions.
 
+For Vietnamese user-facing output, keep controlled internal status codes but translate cryptic codes into plain language by default. In particular, display internal `TBD` as **`Chưa xác định`** unless showing the technical code is specifically useful.
+
 ## Project/session rule
 
 Treat one chat as one project or collection by default. Keep concepts, reviews, revisions and engineering work for that project in the same chat. Recommend a new chat for a genuinely different project, but do not block the user if they prefer to continue.
@@ -42,7 +44,7 @@ If the user provides free-form text, normalize it silently. Do not force re-entr
 - Allow arbitrary product names.
 - Build one shared Design DNA for a collection.
 - Keep geometry, ergonomics, structure, BOM and packaging product-specific.
-- Mark inferred items `AI Proposal`; missing technical facts `TBD`.
+- Mark inferred items `AI Proposal`; missing technical facts `TBD` internally and show them as `Chưa xác định` to users.
 - Do not stop for confirmation unless missing information materially affects design, production route or downstream work.
 
 ## Stage 02 - Concept / Design DNA
@@ -97,7 +99,7 @@ Show by default:
 1. Engineering Summary;
 2. Needs Confirmation - maximum 3-5 grouped questions;
 3. concise per-product technical cards;
-4. critical TBD / risks only;
+4. critical TBD / risks only, displayed to users as `Chưa xác định`;
 5. Readiness: `Chưa sẵn sàng / Sẵn sàng sơ bộ cho BOM / Sẵn sàng handoff kỹ thuật`.
 
 Do not dump every hidden field unless requested. At the end of Stage 04, create the compact stage checkpoint defined in [project-state.md](references/project-state.md).
@@ -111,13 +113,30 @@ End with:
 
 Follow [bom.md](references/bom.md). This stage is BOM only; **do not calculate cost or selling price**.
 
-Create the BOM from controlled Stage 04 data, not measurements inferred from renders. Decompose each SKU into Assembly -> Sub-assembly -> Part, create stable Part No. values, map materials, quantities, sizes/cut lengths, processes and statuses. Leave unsupported precision as `TBD` or `AI Proposal`.
+Create the BOM from controlled Stage 04 data, not measurements inferred from renders. Decompose each SKU into Assembly -> Sub-assembly -> Part, create stable Part No. values, map materials, quantities, sizes/cut lengths, processes and statuses. Leave unsupported precision as internal `TBD` or `AI Proposal`, but show `TBD` to Vietnamese users as `Chưa xác định`.
 
-Default user view: compact BOM summary, 0-5 blockers, small preview table and BOM maturity. Offer full BOM only when requested or at export. At the end of Stage 05, create the compact stage checkpoint defined in [project-state.md](references/project-state.md).
+### BOM interaction rule
+
+Use progressive disclosure. **Never load the full BOM of an entire multi-product collection into chat by default.**
+
+For 2+ products:
+1. show a compact Collection BOM Overview with one row per product;
+2. surface only important exceptions/blockers;
+3. let the user choose a product;
+4. show one Product BOM Card at a time;
+5. show the selected product's full part-level table only on explicit request;
+6. use XLSX/CSV for complete multi-SKU BOM output when supported.
+
+A Product BOM Card should combine, when supported, a simple exploded structure view with numbered callouts and a compact controlled BOM table for the main assemblies/material groups. The visual is explanatory only; controlled BOM data remains authoritative. If side-by-side rendering is unavailable, show the exploded visual first and the compact table immediately below it.
+
+When the user asks `xem BOM chi tiết` in Collection Mode, **do not** print all products. Present the product names for selection first. In Single Product Mode, open the Product BOM Card directly.
+
+At the end of Stage 05, create the compact stage checkpoint defined in [project-state.md](references/project-state.md).
 
 End with:
 - Primary: `Tiếp tục: Đóng gói & Loading`
-- Secondary: `Xem BOM chi tiết`
+- Secondary: `Xem BOM từng sản phẩm`
+- Optional: `Xem các mục chưa xác định`
 - Optional: `Chỉnh BOM`
 
 ## Stage 06 - Packaging & Loading
@@ -154,7 +173,7 @@ After output:
 
 ## Data discipline
 
-Use `Benchmark`, `AI Proposal`, `Calculated`, `Factory Confirmed`, `R&D Confirmed`, and `TBD`. Never convert a render, benchmark or proposal into a production specification without confirmation.
+Use `Benchmark`, `AI Proposal`, `Calculated`, `Factory Confirmed`, `R&D Confirmed`, and `TBD` internally. Never convert a render, benchmark or proposal into a production specification without confirmation.
 
 AI-generated dimensions, part numbers, callouts or labels inside images are presentation-only. Controlled technical values must come from engineering data.
 
