@@ -6,7 +6,7 @@
   "plugins": [
     {
       "name": "letran-furniture-rd-flow",
-      "pluginId": "Plugin_a550cf97bed0819183bee25dd37d563f",
+      "pluginId": "Plugin_bd9777ffae288191bfe69cf981c58ad2",
       "source": {
         "source": "local",
         "path": "./plugins/letran-furniture-rd-flow"
