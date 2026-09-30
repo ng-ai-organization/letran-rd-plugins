@@ -59,7 +59,9 @@ When image generation is available, follow [visual-output-standard.md](reference
 1. one landscape Collection Concept Board showing Design DNA + Concept 01/02/03 + requested products;
 2. at least one Collection Lifestyle Scene for two or more products in the selected Indoor/Outdoor context;
 3. concise text differences and risks;
-4. after concept selection, a focused review board with hero + supporting views/details.
+4. after concept selection, generate a **Product Review Pack** that includes at least one isolated studio image for **every requested SKU/product**, not only the lifestyle scene;
+5. for each product in the Product Review Pack, use a clear white/neutral-background 3/4 hero view and add front/side/back or detail views when useful for review;
+6. never omit an individual product silently. If image-capacity/tool limits prevent generating all product images in one turn, generate them in batches and clearly continue until all requested products have an individual review image.
 
 ## Weaving reference
 

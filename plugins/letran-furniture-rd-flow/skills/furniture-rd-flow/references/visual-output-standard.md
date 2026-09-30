@@ -30,6 +30,28 @@ When the brief contains **two or more products**, generate at least one addition
 - Keep the environment secondary. Avoid excessive decoration, people, dramatic architecture or props that obscure the furniture.
 - Treat the scene as a design-validation view for collection coherence and use context, not merely a marketing mood image.
 
+
+## Required individual product review images
+
+For any collection with two or more products, the lifestyle scene is **not sufficient** for product review. After the user selects or approves a concept/hybrid direction, generate a **Product Review Pack** that covers every requested SKU/product individually.
+
+For each product:
+- generate at least one isolated studio image on a white or neutral background;
+- default to a clear 3/4 hero view at a readable scale;
+- preserve the exact selected Design DNA, materials, colors, weaving language and visible geometry;
+- add front, side, back or detail views when they materially help review;
+- keep camera logic and visual quality consistent across the collection so products are easy to compare;
+- label the product name outside the image in chat when possible rather than relying on generated in-image text.
+
+Do not silently replace individual product images with a collection lifestyle scene. The required collection visual set is:
+1. Collection Concept Board;
+2. Collection Lifestyle Scene;
+3. one individual review image for every requested product after concept selection.
+
+If the image tool cannot generate all requested product images in one turn, generate them in sequential batches and state which products remain. Continue until every requested product is covered before treating visual review as complete.
+
+For a large collection, prioritize one clean hero image per SKU first. Additional orthographic/supporting views can follow on demand.
+
 ## Focused concept board
 
 When the user selects one concept for closer review, generate a separate board with:
