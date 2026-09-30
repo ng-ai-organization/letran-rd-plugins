@@ -1,45 +1,58 @@
-# Trend and benchmark research
+# Trend research -> creative opportunities
+
+## Purpose
+
+Research is raw material for ideas, not the final deliverable. Never return a scrapbook of web facts when the user wants creative direction.
 
 ## When to research
 
-Use current research when the user asks for:
-- latest / newest / current trends;
-- what is popular or rising now;
-- domestic vs international trends;
-- current competitor/brand benchmarks;
-- recent platform formats or creative patterns.
+Use current research for latest/current trends, domestic vs international signals, recent platform formats, competitors, campaigns, aesthetics or audience behavior.
 
 ## Research discipline
 
-Prefer multiple credible and recent sources. For fast-moving social/creative topics, include recent dated examples when possible. Distinguish evidence from interpretation.
+Prefer multiple recent, credible sources and dated examples where possible. Distinguish evidence from interpretation. Do not treat one article as proof of a broad trend.
 
-For every trend worth surfacing, capture:
-- `Trend signal`: what is visibly recurring now;
-- `Where`: Vietnam / Europe / global / a specific platform or industry;
-- `Time window`: recent period relevant to the query;
-- `Creative implication`: what changes in layout, imagery, typography, motion, copy, or format;
-- `Brand fit`: why it may or may not fit the project;
-- `Use level`: `Core direction`, `Accent`, or `Avoid overuse`.
+Capture only signals that can change the creative work:
+- visual composition behavior;
+- typography / graphic systems;
+- image / photography / CGI behavior;
+- color/material/lighting treatment;
+- motion/social format;
+- content/narrative behavior;
+- audience/brand behavior.
 
-## Do not trend-chase blindly
+## Mandatory synthesis
 
-Reject or down-weight a trend when it:
-- weakens brand recognition;
-- conflicts with the product or audience;
-- is too dependent on a short-lived meme;
-- reduces readability or usability;
-- looks generic because every brand is copying it;
-- cannot be executed at the required quality.
+After research, compress evidence into 3-5 **Trend Signals** maximum. Then transform those into **Creative Opportunities**.
 
-## Domestic and international scan
+For each opportunity, output:
+1. `Trend signal` — what is actually recurring now.
+2. `Why now` — short evidence-based interpretation.
+3. `Brand translation` — what to keep, reject or twist for this project.
+4. `Concrete idea` — one campaign/KV idea unique to the brief.
+5. `Poster execution` — subject, composition, crop/scale, environment, type behavior, brand device.
+6. `Content hook` — one headline territory or message logic.
+7. `2D/3D route` — how to execute visually.
+8. `Durability` — short-lived / medium / durable.
 
-When the user requests both Vietnam and international trends, present them side by side rather than implying one market is automatically ahead. Identify shared signals and local differences.
+Never end a trend scan with only `what is trending`. End with `what we should create from it`.
+
+## Trend remix rule
+
+Do not copy a trend literally. Use one of these transformations:
+- combine two signals;
+- invert a common convention;
+- translate the trend through the product's material/form;
+- reduce a loud trend into a premium European version;
+- turn a visual trend into a repeatable brand system;
+- use the trend as an accent while the Big Idea remains brand-owned.
 
 ## Output pattern
 
-Keep the result practical:
-1. 3-6 relevant trend signals;
-2. one short explanation each;
-3. visual/content implications;
-4. what is appropriate for this brand;
-5. optional benchmark examples with sources.
+Default:
+- **3-5 trend signals** with concise evidence;
+- **3 concrete creative opportunities** derived from them;
+- each opportunity includes an executable poster/KV concept and content hook;
+- then ask/select which opportunity to develop.
+
+Prefer depth over quantity.

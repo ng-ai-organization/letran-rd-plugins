@@ -1,20 +1,12 @@
 # Campaign content system
 
-## Start from communication intent
+## Start from the idea, not generic claims
 
-Before writing, resolve:
-- objective: awareness, launch, consideration, lead, traffic, conversion, retention, employer brand, etc.;
-- audience;
-- product/value proposition;
-- channel;
-- tone;
-- desired action.
-
-If the user only asks for copy, do not force a full campaign workflow.
+Resolve objective, audience, product/value proposition, channel, tone and desired action. For campaign work, copy must express the same tension and Big Idea as the visual.
 
 ## Content hierarchy
 
-For campaign work, build a coherent hierarchy when useful:
+Use when useful:
 - Big Idea;
 - Key Message;
 - Headline territory;
@@ -23,23 +15,21 @@ For campaign work, build a coherent hierarchy when useful:
 - CTA;
 - channel adaptations.
 
-## Style
+## Headline quality
 
-Aim for clear, memorable language. Avoid empty phrases such as generic `đẳng cấp`, `tinh hoa`, `nâng tầm` unless the concept genuinely supports them. Prefer specific benefits, imagery, rhythm, contrast, or a distinctive brand point of view.
+Prefer a verbal device that belongs to the concept: contrast, inversion, repetition, metaphor, material language, spatial language, provocation, unexpected specificity or a distinctive point of view.
 
-For a modern European/simple-luxury direction, keep copy disciplined and confident rather than verbose.
+Avoid default luxury filler such as `đẳng cấp`, `tinh hoa`, `nâng tầm`, `khác biệt`, `chạm cảm xúc` unless earned by a specific concept.
+
+If the same headline could be pasted onto five unrelated premium brands, rewrite it.
 
 ## Channel adaptation
 
 Adapt instead of copy-pasting:
-- Poster/KV: shortest and strongest message;
+- Poster/KV: shortest, strongest expression of the Big Idea;
 - Facebook/Instagram: hook + context + CTA;
 - LinkedIn: business relevance and credibility;
-- TikTok/Reels: opening hook, sequence, on-screen copy, caption;
-- Website/landing: value hierarchy, proof, CTA;
+- TikTok/Reels: opening hook + visual sequence + on-screen copy;
+- Website/landing: value hierarchy + proof + CTA;
 - Catalog/brochure: product/brand story with controlled tone;
-- Email: subject, preheader, body, CTA.
-
-## Campaign variants
-
-When multiple creative directions are presented, each direction should have its own matching copy territory. Do not attach the same generic headline to all visual concepts.
+- Email: subject + preheader + body + CTA.

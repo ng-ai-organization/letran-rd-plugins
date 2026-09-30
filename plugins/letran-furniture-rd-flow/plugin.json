@@ -1,25 +1,21 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "letran-furniture-rd-flow",
-  "version": "0.10.0",
-  "description": "LeTran workspace for furniture R&D plus independent Brand & Marketing Creative workflows, including concepts, visuals, content, trends, engineering, BOM, packing/loading, and controlled handoff.",
+  "version": "0.10.1",
+  "description": "LeTran workspace for furniture R&D plus independent Brand & Marketing Creative workflows, including strong concepts, visuals, content, trend-to-idea synthesis, engineering, BOM, packing/loading, and controlled handoff.",
   "author": {"name": "LeTran Furniture"},
-  "extensions": {
-    "com.openai": {
-      "interface": {
-        "displayName": "LeTran R&D & Creative Studio",
-        "shortDescription": "Furniture R&D + Marketing Creative trong một plugin",
-        "longDescription": "Workspace LeTran gồm hai nhánh độc lập: Furniture R&D cho brief, concept, engineering, BOM, packing/loading và handoff; Brand & Marketing Creative cho trend, big idea, poster/key visual, graphic design, xử lý hình ảnh 2D/3D và content chiến dịch. Hai skill chỉ handoff dữ liệu khi user chủ động yêu cầu.",
-        "developerName": "LeTran Furniture",
-        "category": "Productivity",
-        "capabilities": ["Interactive"],
-        "defaultPrompt": [
-          "Bắt đầu. Cho tôi chọn giữa 1) Furniture R&D và 2) Marketing & Creative.",
-          "Tạo collection mới và cho tôi khung brief R&D để điền.",
-          "Tạo concept marketing, poster hoặc key visual cho thương hiệu/sản phẩm của tôi.",
-          "Viết content chiến dịch và cập nhật các trend phù hợp hiện nay."
-        ]
-      }
-    }
-  }
+  "extensions": {"com.openai": {"interface": {
+    "displayName": "LeTran R&D & Creative Studio",
+    "shortDescription": "Furniture R&D + concept-led Marketing Creative",
+    "longDescription": "Workspace LeTran gồm hai nhánh độc lập: Furniture R&D; và Brand & Marketing Creative tập trung vào big idea mạnh, poster/key visual, graphic design, xử lý hình ảnh 2D/3D, content chiến dịch và biến trend hiện tại thành ý tưởng creative cụ thể. Hai skill chỉ handoff dữ liệu khi user chủ động yêu cầu.",
+    "developerName": "LeTran Furniture",
+    "category": "Productivity",
+    "capabilities": ["Interactive"],
+    "defaultPrompt": [
+      "Bắt đầu. Cho tôi chọn giữa 1) Furniture R&D và 2) Marketing & Creative.",
+      "Tạo collection mới và cho tôi khung brief R&D để điền.",
+      "Tạo 3 big idea marketing thật khác nhau và mô tả poster/key visual cụ thể cho từng hướng.",
+      "Tìm trend mới nhất rồi biến chúng thành 3 ý tưởng creative cụ thể cho thương hiệu của tôi."
+    ]
+  }}}
 }
